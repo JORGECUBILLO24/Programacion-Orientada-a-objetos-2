@@ -1,4 +1,4 @@
-package ni.edu.uam.ejemplo_api;
+package ni.edu.uam.ejemplo_api.models;
 
 public class Estudiante {
 
@@ -8,7 +8,7 @@ public class Estudiante {
     private int corte2;
     private int corte3;
 
-    // Constructor vacío (Necesario para JSON)
+
     public Estudiante() {}
 
     public Estudiante(String nombre, String asignatura, int corte1, int corte2, int corte3) {

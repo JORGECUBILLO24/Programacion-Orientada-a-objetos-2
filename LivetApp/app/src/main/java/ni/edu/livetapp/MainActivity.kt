@@ -1,5 +1,4 @@
 package ni.edu.livetapp
-
 import android.net.Uri
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -72,7 +71,7 @@ data class Habito(
     val id: Int,
     val nombre: String,
     val metaSegundosPorSesion: Int,
-    var segundosTrabajados: Int = 0, // Seguimiento de tiempo real agregado para que compile la validación
+    var segundosTrabajados: Int = 0,
     val fechaLimiteMillis: Long,
     val horaAlerta: String,
     val sesionesTotales: Int,

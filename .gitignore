@@ -1,9 +1,0 @@
-**/out/
-**/build/
-**/.gradle/
-**/*.class
-**/.idea/
-**/*.iml
-**/local.properties
-.DS_Store
-Thumbs.db
